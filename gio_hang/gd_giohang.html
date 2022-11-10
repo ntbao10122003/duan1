@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gd_giohang.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="../img/logo_header_logo_logo.png" alt="">
+            </div>
+            <div class="search">
+                <form action="" method="POST">
+                    <input type="text" name="search_sp" id="" class="search_sp" placeholder="tìm kiếm sản phẩm.....">
+                    <button name="btn_search_sp" class="btn_search_sp"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="cart">
+                <a href="https://www.facebook.com/"><i class="fas fa-shopping-cart"></i></a>
+                <p>Giỏ hàng</p>
+                <p>(1)</p>
+            </div>
+            <div class="login_register">
+                <i class="fas fa-user-circle"></i><a href="">Đăng ký</a>
+                <p>||</p> <a style="margin-left: 5px;" href="">Đăng nhập</a>
+            </div>
+        </div>
+            <div class="ships">
+                <div class="box-ships">
+                        <i class="fas fa-car-side"></i>
+                        <p>giao hàng miễn phí !!!</p>
+                </div>
+            </div>
+
+            <div class="nav-ships">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sản Phẩm</th>
+                        <th scope="col">Đơn Giá</th>
+                        <th scope="col">Số Lượng</th>
+                        <th scope="col">Số Tiền</th>
+                        <th scope="col">Thao Tác</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row" class="test">
+                            <input type="checkbox">
+                            <div class="box-img">
+                                <img src="../img/250_47384_596281937.jpeg" alt="">
+                                <a href="">Điện thoại Nokia 105 4G-Đen</a>
+                            </div>
+                        </th>
+                        <td>800.000$</td>
+                        <td>
+                            <div class="btn">
+                                <input type="number" name="quantity" min="1" max="10">
+                            </div>
+                            <!--  -->
+                        </td>
+                        <td>800.000$</td>
+                        <td><a href="">Xóa</a></td>
+                      </tr>
+                      
+                      <tr>
+                        <th scope="row" class="test">
+                            <input type="checkbox">
+                            <div class="box-img">
+                                <img src="../img/250_47384_596281937.jpeg" alt="">
+                                <a href="">Điện thoại Nokia 105 4G-Đen</a>
+                            </div>
+                        </th>
+                        <td>800.000$</td>
+                        <td>
+                            <div class="btn">
+                                <input type="number" name="quantity" min="1" max="10">
+                            </div>
+                        </td>
+                        <td>800.000$</td>
+                        <td><a href="">Xóa</a></td>
+                      </tr>
+    
+                      <tr>
+                        <th scope="row" class="test">
+                            <input type="checkbox">
+                            <div class="box-img">
+                                <img src="../img/250_47384_596281937.jpeg" alt="">
+                                <a href="">Điện thoại Nokia 105 4G-Đen</a>
+                            </div>
+                        </th>
+                        <td>800.000$</td>
+                        <td>
+                            <div class="btn">
+                                <input type="number" name="quantity" min="1" max="10">
+                            </div>
+                        </td>
+                        <td>800.000$</td>
+                        <td class="detel"><a href="">Xóa</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+                  <!-- -- đặt hàng --  -->
+                  <div class="bill">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">
+                                <input type="checkbox">
+                            </th>
+                            <th scope="col">Chọn tất cả</th>
+                            <th scope="col">Tổng sản phẩm thanh toán (1)</th>
+                            <th scope="col"></th>
+                            <th scope="col">Tổng tiền: <span>800.000$</span></th>
+                            <th scope="col">
+                                <button>Mua Hàng </button>
+                            </th>
+
+                          </tr>
+                        </thead>
+                      </table>
+                  </div>
+                  
+                </div>
+
+                <!-- -- sp khác --  -->
+                <div class="khac">
+                    <div class="khac-content">
+                        <h5>CÓ THỂ BẠN CŨNG THÍCH </h5>
+                        <a href=""> xem tất cả >></a>
+                    </div>
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                           <a href="">xem ngay</a>
+                        </div>
+                      
+                    </div>
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                           <a href="">xem ngay</a>
+                        </div>
+                        
+                    </div>
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                           <a href="">xem ngay</a>
+                        </div>
+                      
+                    </div>
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                           <a href="">xem ngay</a>
+                        </div>
+                       
+                    </div>
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                           <a href="">xem ngay</a>
+                        </div>
+                        
+                    </div>
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                            <a href="">xem ngay</a>
+                        </div>
+                        
+                    </div>
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                           <a href="">xem ngay</a>
+                        </div>
+                        
+                    </div>
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                            <a href="">xem ngay</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                            <a href="">xem ngay</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                            <a href="">xem ngay</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                            <a href="">xem ngay</a>
+                        </div>
+                        
+                    </div>
+
+                    <div class="product1">
+                        <img src="../img/250_47384_596281937.jpeg" alt="">
+                        <p class="title-name">Điện thoại Nokia 105 4G-Đen</p>
+                        <div class="price">
+                            <p>Giá niêm yết :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="price-real">
+                            <p>Giá bán :</p><strong>750.000 đ</strong>
+                        </div>
+                        <div class="status-product">
+                            <!-- <i class="fas fa-check-circle"></i> -->
+                            <a href="">xem ngay</a>
+                        </div>
+                        
+                    </div>
+                    <div class="list-page">
+                        <div class="item" style="background: rgb(49, 49, 206);">
+                            <a href="">1</a>
+                        </div>
+                        <div class="item">
+                            <a href="">2</a>
+                        </div>
+                        <div class="item">
+                            <a href="">3</a>
+                        </div>
+                        <div class="item">
+                            <a href="">4</a>
+                        </div>
+                    </div>
+                    <footer class="footer">
+                        <div class="information">
+                            <h4>Thông tin công ty</h4>
+                            <ul>
+                                <li><a href="">Giới thiệu công ty </a></li>
+                                <li><a href="">Thông tin liên hệ </a></li>
+                                <li><a href="">Thông tin tuyển dụng </a></li>
+                                <li><a href="">Điều khoản giao dịch </a></li>
+                            </ul>
+                        </div>
+                        <div class="information">
+                            <h4>Quy định và chính sách</h4>
+                            <ul>
+                                <li><a href="">Chính sách kinh doanh </a></li>
+                                <li><a href="">Chính sách mua hàng</a></li>
+                                <li><a href="">Chính sách bảo hàng </a></li>
+                                <li><a href="">Chính sách đổi trả hàng</a></li>
+                                <li><a href="">Chính sách kiểm hàng</a></li>
+                            </ul>
+                        </div>
+                        <div class="information">
+                            <h4>Thông tin </h4>
+                            <ul>
+                                <li><a href="">Địa chỉ : <strong>124 Phương Canh Nam Từ Liêm Hà Nội</strong> </a></li>
+                                <li><a href="">SĐT: <strong> 0332601248 </strong></a></li>
+                                <li><a href="">Email: <strong>dongtnph21313@fpt.edu.vn </strong></a></li>
+                                <li><a href="">Giờ mở cửa từ 8h đến 22h </a></li>
+                            </ul>
+                        </div>
+                    </footer>
+                    <div class="internet">
+                        <ul class="ul-internet">
+                            <li><a href=""><img src="img/facebook-chat.png" alt=""></a></li>
+                            <li><a href=""><img src="img/zalo1.png" alt=""></a></li>
+                          <li><a href=""><img src="img/facebook-chat.png" alt=""></a></li>
+                          <li><a href=""><img src="img/zalo1.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+        </div>
+       
+   
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
